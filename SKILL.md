@@ -24,18 +24,18 @@ description: 检索、比较福建及全国权威知识产权案例，并按商�
 3. 读取 [references/domain-routing.md](references/domain-routing.md)，判断领域并加载对应的要素清单。
 4. 商标案件读取 [references/trademark-analysis.md](references/trademark-analysis.md)；其他领域若缺少专门规则文件，必须按领域不足清单输出，不得套用商标规则。
 5. 需要判断案例权威性、检索顺序或法律版本时，读取 [references/source-ranking.md](references/source-ranking.md)。
-5. 如果用户提供案例库路径，调用 `scripts/search_cases.py`。先以案由、法院、年份和程序过滤，再用争议焦点、行为、抗辩和证据关键词检索。不要用裁判结果作为相似度输入。
+5. 优先使用用户明确提供的案例库路径；否则若存在 `data/national-ip-corpus/cases.db`，使用该内置全国案例库。调用 `scripts/search_cases.py` 时，先以案由、法院、年份和程序过滤，再用争议焦点、行为、抗辩和证据关键词检索。不要用裁判结果作为相似度输入。
 6. 对候选案例逐一核对来源、生效状态、权利基础、决定性事实、抗辩、证据和法律版本；只有标题或关键词相似的不算类案。
 7. 按 [references/report-template.md](references/report-template.md) 输出。材料不足时给出证据清单和下一步检索建议，不强行预测。
 
 ## 本地案例库
 
-数据库工具仅使用 Python 标准库。数据库位置由用户通过 `--db` 明确指定，不在 Skill 目录内自动保存案件数据。`cause_of_action` 和 `rights` 字段用于区分领域；同一数据库可以保存多个知识产权领域。
+数据库工具仅使用 Python 标准库。一键安装版本内置 `data/national-ip-corpus/cases.db`；用户通过 `--db` 提供其他路径时，以用户路径为准。工具不会把客户案件或检索结果自动写回内置公共库。`cause_of_action` 和 `rights` 字段用于区分领域；同一数据库可以保存多个知识产权领域。
 
 ```powershell
 python scripts/init_database.py --db <案例库路径>
 python scripts/ingest_cases.py --db <案例库路径> --input <案例JSON或JSONL>
-python scripts/search_cases.py --db <案例库路径> --query "合法来源 惩罚性赔偿" --limit 10
+python scripts/search_cases.py --db data/national-ip-corpus/cases.db --query "合法来源 惩罚性赔偿" --limit 10
 python scripts/validate_corpus.py --db <案例库路径>
 ```
 

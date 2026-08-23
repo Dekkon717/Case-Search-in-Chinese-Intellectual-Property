@@ -1,21 +1,52 @@
 {
   "scope": "全国（含福建本地）",
-  "generated_at": "2026-08-20",
-  "total_cases": 610,
+  "generated_at": "2026-08-24",
+  "base_cases": 610,
+  "base_duplicate_records_removed": 23,
+  "retained_base_cases": 587,
+  "added_cases": 633,
+  "net_increase": 610,
+  "total_cases": 1220,
+  "expansion_ratio": 2.0,
   "by_case_type": {
-    "商标及不正当竞争": 1,
-    "不正当竞争": 65,
-    "著作权": 123,
+    "不正当竞争": 119,
+    "专利": 217,
     "专利及恶意诉讼": 1,
+    "其他知识产权": 42,
+    "商业秘密": 87,
+    "商标": 243,
+    "商标及不正当竞争": 81,
     "外观设计专利": 1,
-    "商业秘密": 81,
-    "植物新品种": 123,
-    "专利": 115,
-    "商标": 100
+    "植物新品种": 128,
+    "著作权": 301
   },
-  "verified_or_official_count": 9,
-  "pkulaw_index_lead_count": 42,
-  "rmfyalk_index_count": 327,
-  "wenshu_index_count": 234,
-  "note": "三类数据库新增记录均来自已登录会话或公开列表，保留原始链接和可见摘要；全文、裁判理由和主文仍需逐案二次核验。"
+  "by_source_type": {
+    "effective_judgment": 233,
+    "fujian_high_court_typical_case": 2,
+    "guiding_case": 1,
+    "other_verified_public_case": 263,
+    "people_court_case_library": 326,
+    "spc_typical_case": 395
+  },
+  "added_by_case_type": {
+    "不正当竞争": 57,
+    "专利": 104,
+    "其他知识产权": 42,
+    "商业秘密": 15,
+    "商标": 144,
+    "商标及不正当竞争": 80,
+    "植物新品种": 8,
+    "著作权": 183
+  },
+  "added_by_source_type": {
+    "other_verified_public_case": 241,
+    "spc_typical_case": 392
+  },
+  "verified_or_official_count": 724,
+  "pkulaw_index_lead_count": 22,
+  "figshare_dataset_count": 241,
+  "rmfyalk_index_count": 326,
+  "wenshu_index_count": 233,
+  "spc_typical_case_count": 395,
+  "note": "本轮扩容优先保留Figshare CC BY 4.0判决样本及最高人民法院年度典型案例索引；所有机器提取记录仍须回到原文复核。"
 }

@@ -15,8 +15,14 @@ from case_db import (
 )
 
 
+def is_verifiable_case_number(value: object) -> bool:
+    """排除“待核验”等占位文本，只对真实案号执行重复检查。"""
+    text = str(value or "").strip()
+    return bool(text) and not text.startswith(("待", "未获取", "不详"))
+
+
 def main() -> int:
-    parser = argparse.ArgumentParser(description="校验福建商标案例库")
+    parser = argparse.ArgumentParser(description="校验全国知识产权案例库")
     parser.add_argument("--db", required=True, help="SQLite 数据库路径")
     args = parser.parse_args()
     try:
@@ -33,7 +39,11 @@ def main() -> int:
         warnings.append("数据库为空，还没有可检索的案例")
 
     hashes = Counter(str(row.get("source_hash", "")) for row in rows)
-    numbers = Counter(str(row.get("case_number", "")) for row in rows)
+    numbers = Counter(
+        str(row.get("case_number", "")).strip()
+        for row in rows
+        if is_verifiable_case_number(row.get("case_number"))
+    )
     for row in rows:
         label = str(row.get("case_id", "未知案例"))
         for field in REQUIRED_FIELDS:

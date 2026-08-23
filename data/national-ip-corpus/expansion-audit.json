@@ -1,0 +1,754 @@
+{
+  "generated_at": "2026-08-24",
+  "original_base_count": 610,
+  "retained_base_count": 587,
+  "base_duplicate_records_removed": 23,
+  "candidate_count": 795,
+  "candidate_duplicate_count": 89,
+  "total_duplicate_records_removed": 112,
+  "unique_candidate_count": 706,
+  "selected_count": 633,
+  "target_total": 1220,
+  "final_total": 1220,
+  "duplicates": [
+    {
+      "stage": "base_cleanup",
+      "case_id": "RMFY-PLANT-029",
+      "case_number": "（2011）苏知民终字第0194号、（2012）苏知民终字第0055号",
+      "reason": "既有库跨来源案号重复"
+    },
+    {
+      "stage": "base_cleanup",
+      "case_id": "IP-SPC-SECRET-001",
+      "case_number": "（2022）最高法知民终26号",
+      "reason": "既有库跨来源案号重复"
+    },
+    {
+      "stage": "base_cleanup",
+      "case_id": "WS-UC-012",
+      "case_number": "（2024）最高法民再224号",
+      "reason": "既有库跨来源案号重复"
+    },
+    {
+      "stage": "base_cleanup",
+      "case_id": "PKU-TM-003",
+      "case_number": "(2023)鄂知民终691号",
+      "reason": "既有库跨来源案号重复"
+    },
+    {
+      "stage": "base_cleanup",
+      "case_id": "PKU-COPY-004",
+      "case_number": "(2016)最高法民再175号",
+      "reason": "既有库跨来源案号重复"
+    },
+    {
+      "stage": "base_cleanup",
+      "case_id": "PKU-COPY-005",
+      "case_number": "(2017)民再353号",
+      "reason": "既有库跨来源案号重复"
+    },
+    {
+      "stage": "base_cleanup",
+      "case_id": "PKU-COPY-006",
+      "case_number": "(2017)最高法民申2348号",
+      "reason": "既有库跨来源案号重复"
+    },
+    {
+      "stage": "base_cleanup",
+      "case_id": "PKU-COPY-007",
+      "case_number": "(2016)最高法民申2136号",
+      "reason": "既有库跨来源案号重复"
+    },
+    {
+      "stage": "base_cleanup",
+      "case_id": "PKU-COPY-008",
+      "case_number": "(2015)闽民终字第990号",
+      "reason": "既有库跨来源案号重复"
+    },
+    {
+      "stage": "base_cleanup",
+      "case_id": "PKU-PAT-004",
+      "case_number": "(2020)最高法知民终225号",
+      "reason": "既有库跨来源案号重复"
+    },
+    {
+      "stage": "base_cleanup",
+      "case_id": "PKU-PAT-006",
+      "case_number": "(2019)最高法知民终5号",
+      "reason": "既有库跨来源案号重复"
+    },
+    {
+      "stage": "base_cleanup",
+      "case_id": "PKU-UC-006",
+      "case_number": "(2022)最高法民终146号",
+      "reason": "既有库跨来源案号重复"
+    },
+    {
+      "stage": "base_cleanup",
+      "case_id": "PKU-UC-007",
+      "case_number": "(2022)最高法民终209号",
+      "reason": "既有库跨来源案号重复"
+    },
+    {
+      "stage": "base_cleanup",
+      "case_id": "PKU-SEC-001",
+      "case_number": "(2022)最高法知民终1592号",
+      "reason": "既有库跨来源案号重复"
+    },
+    {
+      "stage": "base_cleanup",
+      "case_id": "PKU-SEC-002",
+      "case_number": "(2023)最高法知民终2913号",
+      "reason": "既有库跨来源案号重复"
+    },
+    {
+      "stage": "base_cleanup",
+      "case_id": "PKU-SEC-003",
+      "case_number": "(2021)最高法知民终1629号",
+      "reason": "既有库跨来源案号重复"
+    },
+    {
+      "stage": "base_cleanup",
+      "case_id": "PKU-SEC-004",
+      "case_number": "(2021)最高法知民终312号",
+      "reason": "既有库跨来源案号重复"
+    },
+    {
+      "stage": "base_cleanup",
+      "case_id": "PKU-SEC-005",
+      "case_number": "(2022)最高法知民终20号",
+      "reason": "既有库跨来源案号重复"
+    },
+    {
+      "stage": "base_cleanup",
+      "case_id": "PKU-SEC-006",
+      "case_number": "(2022)最高法知民终26号",
+      "reason": "既有库跨来源案号重复"
+    },
+    {
+      "stage": "base_cleanup",
+      "case_id": "PKU-SEC-007",
+      "case_number": "(2020)最高法知民终1472号",
+      "reason": "既有库跨来源案号重复"
+    },
+    {
+      "stage": "base_cleanup",
+      "case_id": "PKU-SEC-008",
+      "case_number": "(2021)最高法民再310号",
+      "reason": "既有库跨来源案号重复"
+    },
+    {
+      "stage": "base_cleanup",
+      "case_id": "PKU-PLANT-001",
+      "case_number": "(2021)最高法民申5178号",
+      "reason": "既有库跨来源案号重复"
+    },
+    {
+      "stage": "base_cleanup",
+      "case_id": "PKU-PLANT-002",
+      "case_number": "(2011)苏知民终字第0194号、(2012)苏知民终字第0055号",
+      "reason": "既有库跨来源案号重复"
+    },
+    {
+      "case_id": "FIG-IP-PD-208",
+      "case_number": "（2022）最高法知民终1033号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "FIG-IP-PD-209",
+      "case_number": "（2022）最高法民终209号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "FIG-IP-PD-237",
+      "case_number": "（2022）最高法知民终1742号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "FIG-IP-PD-238",
+      "case_number": "（2023）最高法知民终1590号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2023-08",
+      "case_number": "（2022）最高法民终209号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2023-23",
+      "case_number": "（2021）琼73民初28号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2023-30",
+      "case_number": "（2023）苏民终280号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2022-01",
+      "case_number": "（2020）最高法知民终1696号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2022-17",
+      "case_number": "（2022）闽民终879号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2022-22",
+      "case_number": "（2022）赣02民终171号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2022-23",
+      "case_number": "（2022）最高法知民终541号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2022-24",
+      "case_number": "（2022）最高法知民终147号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2022-30",
+      "case_number": "（2022）陕知民终10号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2022-35",
+      "case_number": "（2022）浙01民终1203号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2022-40",
+      "case_number": "（2020）皖民初4号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2022-41",
+      "case_number": "（2022）浙01知民初96号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2022-49",
+      "case_number": "（2021）沪0115刑初5190号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2021-02",
+      "case_number": "（2021）最高法知民终388号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2021-07",
+      "case_number": "（2021）最高法民再3号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2021-10",
+      "case_number": "（2021）吉01民初1713号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2021-19",
+      "case_number": "（2021）最高法民再355号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2021-20",
+      "case_number": "（2021）最高法民再114号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2021-27",
+      "case_number": "（2021）最高法民再310号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2021-28",
+      "case_number": "（2019）京0108民初63253号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2021-30",
+      "case_number": "（2020）沪73民终444号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2021-31",
+      "case_number": "（2021）浙民终601号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2021-34",
+      "case_number": "（2021）闽民终828号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2021-36",
+      "case_number": "（2020）粤73民终2289号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2021-41",
+      "case_number": "（2021）琼73知民初1号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2021-45",
+      "case_number": "（2021）最高法行再255号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2021-47",
+      "case_number": "（2021）京行终6471号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2021-49",
+      "case_number": "（2021）苏刑终75号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2021-50",
+      "case_number": "（2021）苏01刑终716号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2020-32",
+      "case_number": "（2019）粤知民终457号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2020-33",
+      "case_number": "（2020）桂民终1819号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2020-35",
+      "case_number": "（2019）渝05民初3618号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2020-38",
+      "case_number": "（2019）甘01民初170号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2020-45",
+      "case_number": "（2020）京行终3768号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2020-49",
+      "case_number": "（2018）粤03刑终2568号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2018-16",
+      "case_number": "（2018）沪73民终222号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2018-26",
+      "case_number": "（2016）最高法民再175号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2018-28",
+      "case_number": "（2018）沪民终429号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2018-29",
+      "case_number": "（2018）苏民终588号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2018-32",
+      "case_number": "（2018）渝民终234号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2018-34",
+      "case_number": "（2018）最高法民再389号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2018-38",
+      "case_number": "（2017）粤03民初822号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2018-41",
+      "case_number": "（2018）黔民终665号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2018-48",
+      "case_number": "（2018）京行终3673号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2018-50",
+      "case_number": "（2018）京0108刑初1932号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2017-13",
+      "case_number": "（2017）京民终28号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2017-14",
+      "case_number": "（2016）浙民终794号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2017-17",
+      "case_number": "（2017）黔民终822号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2017-25",
+      "case_number": "（2017）最高法民申2348号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2017-47",
+      "case_number": "（2017）京行终3288号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2016-26",
+      "case_number": "（2016）渝民终536号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2016-28",
+      "case_number": "（2016）最高法民申2136号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2016-30",
+      "case_number": "（2015）沪知民终字第641号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2016-38",
+      "case_number": "（2015）沪知民终字第728号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2016-39",
+      "case_number": "（2016）闽民终563号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2016-45",
+      "case_number": "（2016）最高法行申362号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2016-46",
+      "case_number": "（2016）最高法行申2154号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2015-01",
+      "case_number": "（2015）民申字第1070号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2015-08",
+      "case_number": "（2014）民提字第168号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2015-12",
+      "case_number": "（2014）沪高民三（知）终字第104号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2015-23",
+      "case_number": "（2015）渝高法民终字第00509号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2015-28",
+      "case_number": "（2015）闽民终字第990号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2015-33",
+      "case_number": "（2015）筑知民初字第17号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2015-36",
+      "case_number": "（2015）民申字第2633号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2015-41",
+      "case_number": "（2015）皖民三终字第00065号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2015-46",
+      "case_number": "（2015）知行字第115号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2015-47",
+      "case_number": "（2015）知行字第116号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2014-10",
+      "case_number": "（2013）民申字第1049号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2014-16",
+      "case_number": "（2014）沪二中民五（知）初字第83号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2014-20",
+      "case_number": "（2013）桂民三终字第65号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2014-22",
+      "case_number": "（2014）民提字第24号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2014-30",
+      "case_number": "（2014）一中民终字第3283号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2014-37",
+      "case_number": "（2014）民申字第52号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2014-38",
+      "case_number": "（2014）民提字第26号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2014-39",
+      "case_number": "（2014）兰民三初字第12号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2014-45",
+      "case_number": "（2014）行提字第2号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2014-47",
+      "case_number": "（2014）高行终字第485号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2014-49",
+      "case_number": "（2014）穗中法知刑终字第21号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2014-50",
+      "case_number": "（2014）筑民三（知刑）初字第1号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2013-19",
+      "case_number": "（2012）穗中法民三终字第96号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2013-21",
+      "case_number": "（2013）高民终字第3027号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2013-35",
+      "case_number": "（2013）民提字第16号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2013-47",
+      "case_number": "（2012）行提字第28号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2012-19",
+      "case_number": "（2012）高民终字第58号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    },
+    {
+      "case_id": "SPC-TYP-2012-50",
+      "case_number": "（2012）深中法知刑终字第35号",
+      "reason": "案号重复",
+      "stage": "candidate_dedup"
+    }
+  ],
+  "source_manifest": {
+    "dataset": {
+      "name": "245 Judicial Decisions Applying Punitive Damages in Chinese IP cases",
+      "doi": "10.6084/m9.figshare.30461615.v2",
+      "url": "https://doi.org/10.6084/m9.figshare.30461615.v2",
+      "license": "CC BY 4.0",
+      "file_id": 59104196,
+      "expected_cases": 245
+    },
+    "official_typical_case_pages": [
+      {
+        "year": 2012,
+        "file": "2012.html",
+        "url": "https://www.court.gov.cn/zixun/xiangqing/5274.html"
+      },
+      {
+        "year": 2013,
+        "file": "2013.html",
+        "url": "https://www.court.gov.cn/zixun/xiangqing/6334.html"
+      },
+      {
+        "year": 2014,
+        "file": "2014.html",
+        "url": "https://www.court.gov.cn/fabu/xiangqing/14198.html"
+      },
+      {
+        "year": 2015,
+        "file": "2015.html",
+        "url": "https://www.court.gov.cn/zixun/xiangqing/19852.html"
+      },
+      {
+        "year": 2016,
+        "file": "2016.html",
+        "url": "https://www.court.gov.cn/zixun/xiangqing/41682.html"
+      },
+      {
+        "year": 2017,
+        "file": "2017.html",
+        "url": "https://www.court.gov.cn/zixun/xiangqing/91332.html"
+      },
+      {
+        "year": 2018,
+        "file": "2018.html",
+        "url": "https://www.court.gov.cn/zixun/xiangqing/153252.html"
+      },
+      {
+        "year": 2020,
+        "file": "2020.html",
+        "url": "https://www.court.gov.cn/zixun/xiangqing/297991.html"
+      },
+      {
+        "year": 2021,
+        "file": "2021.html",
+        "url": "https://www.court.gov.cn/zixun/xiangqing/355881.html"
+      },
+      {
+        "year": 2022,
+        "file": "2022.html",
+        "url": "https://www.court.gov.cn/zixun/xiangqing/397162.html"
+      },
+      {
+        "year": 2023,
+        "file": "2023.html",
+        "url": "https://www.court.gov.cn/zixun/xiangqing/430692.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "dataset": {
+    "name": "245 Judicial Decisions Applying Punitive Damages in Chinese IP cases",
+    "doi": "10.6084/m9.figshare.30461615.v2",
+    "url": "https://doi.org/10.6084/m9.figshare.30461615.v2",
+    "license": "CC BY 4.0",
+    "file_id": 59104196,
+    "expected_cases": 245
+  },
+  "official_typical_case_pages": [
+    {
+      "year": 2012,
+      "file": "2012.html",
+      "url": "https://www.court.gov.cn/zixun/xiangqing/5274.html"
+    },
+    {
+      "year": 2013,
+      "file": "2013.html",
+      "url": "https://www.court.gov.cn/zixun/xiangqing/6334.html"
+    },
+    {
+      "year": 2014,
+      "file": "2014.html",
+      "url": "https://www.court.gov.cn/fabu/xiangqing/14198.html"
+    },
+    {
+      "year": 2015,
+      "file": "2015.html",
+      "url": "https://www.court.gov.cn/zixun/xiangqing/19852.html"
+    },
+    {
+      "year": 2016,
+      "file": "2016.html",
+      "url": "https://www.court.gov.cn/zixun/xiangqing/41682.html"
+    },
+    {
+      "year": 2017,
+      "file": "2017.html",
+      "url": "https://www.court.gov.cn/zixun/xiangqing/91332.html"
+    },
+    {
+      "year": 2018,
+      "file": "2018.html",
+      "url": "https://www.court.gov.cn/zixun/xiangqing/153252.html"
+    },
+    {
+      "year": 2020,
+      "file": "2020.html",
+      "url": "https://www.court.gov.cn/zixun/xiangqing/297991.html"
+    },
+    {
+      "year": 2021,
+      "file": "2021.html",
+      "url": "https://www.court.gov.cn/zixun/xiangqing/355881.html"
+    },
+    {
+      "year": 2022,
+      "file": "2022.html",
+      "url": "https://www.court.gov.cn/zixun/xiangqing/397162.html"
+    },
+    {
+      "year": 2023,
+      "file": "2023.html",
+      "url": "https://www.court.gov.cn/zixun/xiangqing/430692.html"
+    }
+  ]
+}

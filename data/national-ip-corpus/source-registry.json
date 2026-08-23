@@ -20,5 +20,29 @@
   "wkinfo": {
     "status": "需要JavaScript/登录状态，未批量抓取",
     "collected_count": 0
+  },
+  "figshare_ip_punitive_dataset": {
+    "status": "公开可下载，CC BY 4.0",
+    "collected_count": 241,
+    "url": "https://doi.org/10.6084/m9.figshare.30461615.v2",
+    "access_note": "本地索引保存结构化元数据摘要，原判决合集通过DOI回溯"
+  },
+  "spc_annual_typical_cases": {
+    "status": "最高人民法院官方页面",
+    "collected_count": 392,
+    "years": [
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "access_note": "年度典型案例名单索引，裁判全文与生效状态仍需逐案核验"
   }
 }
