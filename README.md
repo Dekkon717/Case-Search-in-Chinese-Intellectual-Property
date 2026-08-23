@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Dekkon717/fujian-ip-litigation-skill/releases"><img alt="版本" src="https://img.shields.io/badge/version-0.2.0-16a085"></a>
+  <a href="https://github.com/Dekkon717/Case-Search-in-Chinese-Intellectual-Property/releases"><img alt="版本" src="https://img.shields.io/badge/version-0.2.0-16a085"></a>
   <img alt="案例数" src="https://img.shields.io/badge/cases-1%2C220-243b53">
   <img alt="领域数" src="https://img.shields.io/badge/IP领域-6-4c78a8">
   <img alt="本地优先" src="https://img.shields.io/badge/local--first-✓-2e8b57">
