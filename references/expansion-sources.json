@@ -1,67 +1,56 @@
 {
-  "dataset": {
-    "name": "245 Judicial Decisions Applying Punitive Damages in Chinese IP cases",
-    "doi": "10.6084/m9.figshare.30461615.v2",
-    "url": "https://doi.org/10.6084/m9.figshare.30461615.v2",
-    "license": "CC BY 4.0",
-    "file_id": 59104196,
-    "expected_cases": 245
+  "generated_at": "2026-08-28",
+  "wenshu_official": {
+    "name": "中国裁判文书网",
+    "url": "https://wenshu.court.gov.cn/website/wenshu/181217BMTKHNT2W0/index.html",
+    "login_status": "用户已登录会话已确认",
+    "collected_list_index_count": 233,
+    "access_boundary": "不绕过登录、验证码、反爬或付费限制；source_url仅作为公开检索入口"
   },
-  "official_typical_case_pages": [
+  "wenshu_derived_datasets": [
     {
-      "year": 2012,
-      "file": "2012.html",
-      "url": "https://www.court.gov.cn/zixun/xiangqing/5274.html"
+      "name": "C3RD / MileCut",
+      "url": "https://github.com/YeFD/MileCut",
+      "dataset_download": "https://drive.google.com/file/d/1LwaEWc7iYEu6qDFKu5wworGOkKFouLm3",
+      "provenance": "数据说明称由中国裁判文书网公开民事文书构建",
+      "license_note": "代码仓库MIT；数据集按原发布页条款使用，不在本仓库分发原始压缩包",
+      "unique_ip_candidates": 1414,
+      "selected": 1097
     },
     {
-      "year": 2013,
-      "file": "2013.html",
-      "url": "https://www.court.gov.cn/zixun/xiangqing/6334.html"
+      "name": "TheFinAI corpus-shard-20",
+      "url": "https://huggingface.co/datasets/TheFinAI/corpus-shard-20",
+      "license": "Apache-2.0",
+      "provenance": "公开法院裁判语料分片；文件字段含source/date/text",
+      "cached_files": 34,
+      "ip_matches_before_final_selection": 4753,
+      "selected": 3783
     },
     {
-      "year": 2014,
-      "file": "2014.html",
-      "url": "https://www.court.gov.cn/fabu/xiangqing/14198.html"
+      "name": "AppealCase",
+      "url": "https://huggingface.co/datasets/ythuang02/AppealCase",
+      "license": "CC BY-NC 4.0",
+      "provenance": "页面说明来源为中国裁判文书网；作为候选池筛选，未进入最终6100条",
+      "selected": 0
     },
     {
-      "year": 2015,
-      "file": "2015.html",
-      "url": "https://www.court.gov.cn/zixun/xiangqing/19852.html"
-    },
-    {
-      "year": 2016,
-      "file": "2016.html",
-      "url": "https://www.court.gov.cn/zixun/xiangqing/41682.html"
-    },
-    {
-      "year": 2017,
-      "file": "2017.html",
-      "url": "https://www.court.gov.cn/zixun/xiangqing/91332.html"
-    },
-    {
-      "year": 2018,
-      "file": "2018.html",
-      "url": "https://www.court.gov.cn/zixun/xiangqing/153252.html"
-    },
-    {
-      "year": 2020,
-      "file": "2020.html",
-      "url": "https://www.court.gov.cn/zixun/xiangqing/297991.html"
-    },
-    {
-      "year": 2021,
-      "file": "2021.html",
-      "url": "https://www.court.gov.cn/zixun/xiangqing/355881.html"
-    },
-    {
-      "year": 2022,
-      "file": "2022.html",
-      "url": "https://www.court.gov.cn/zixun/xiangqing/397162.html"
-    },
-    {
-      "year": 2023,
-      "file": "2023.html",
-      "url": "https://www.court.gov.cn/zixun/xiangqing/430692.html"
+      "name": "ClaimGen-CN",
+      "url": "https://huggingface.co/datasets/Josieeee/ClaimGen-CN",
+      "license": "CC BY-NC-SA 4.0",
+      "provenance": "页面说明来源为中国裁判文书网；内容为主张/事实片段而非完整裁判文书",
+      "selected": 0
     }
-  ]
+  ],
+  "existing_sources": {
+    "figshare": {
+      "name": "245 Judicial Decisions Applying Punitive Damages in Chinese IP cases",
+      "doi": "10.6084/m9.figshare.30461615.v2",
+      "url": "https://doi.org/10.6084/m9.figshare.30461615.v2",
+      "license": "CC BY 4.0",
+      "selected": 241
+    },
+    "official_typical_case_pages": "https://www.court.gov.cn/",
+    "people_court_case_library": "https://rmfyalk.court.gov.cn/",
+    "pkulaw": "https://www.pkulaw.com/"
+  }
 }

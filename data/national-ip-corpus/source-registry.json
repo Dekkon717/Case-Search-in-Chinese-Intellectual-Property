@@ -7,11 +7,45 @@
   },
   "wenshu": {
     "status": "用户已登录，公开列表与裁判理由摘要可访问",
-    "collected_count": 234
+    "collected_count": 233,
+    "scope": "全国公开检索入口与列表摘要",
+    "access_note": "用户登录状态已确认；新增研究语料的逐条回溯信息保存在每条citations"
+  },
+  "wenshu_public_datasets": {
+    "status": "公开研究数据集，明确声明源自中国裁判文书网",
+    "selected_count": 4880,
+    "candidate_unique_count": 6205,
+    "access_note": "不分发原始大文件，仅发布机器结构化索引；正式使用须回到裁判文书网核验"
+  },
+  "c3rd_milecut": {
+    "status": "公开下载，数据说明称由裁判文书网公开民事文书构建",
+    "selected_count": 1097,
+    "url": "https://github.com/YeFD/MileCut",
+    "access_note": "保留CaseId和数据集文件引用，不重新分发原始压缩包"
+  },
+  "thefinai_corpus_shard_20": {
+    "status": "公开下载，页面标注Apache-2.0",
+    "selected_count": 3783,
+    "cached_files": 34,
+    "url": "https://huggingface.co/datasets/TheFinAI/corpus-shard-20",
+    "access_note": "保留分片路径与行号；仅作发现线索，不等同于逐案原文"
+  },
+  "appealcase": {
+    "status": "公开候选池，页面标注来源为裁判文书网、CC BY-NC 4.0",
+    "selected_count": 0,
+    "candidate_note": "已下载并筛选，因目标达到未进入最终6100条",
+    "url": "https://huggingface.co/datasets/ythuang02/AppealCase"
+  },
+  "claimgen_cn": {
+    "status": "公开候选池，页面标注来源为裁判文书网、CC BY-NC-SA 4.0",
+    "selected_count": 0,
+    "candidate_note": "非完整裁判文书主张/事实片段；因目标达到未进入最终6100条",
+    "url": "https://huggingface.co/datasets/Josieeee/ClaimGen-CN"
   },
   "people_case_library": {
     "status": "用户已登录，公开案例列表可访问",
-    "collected_count": 327
+    "collected_count": 326,
+    "url": "https://rmfyalk.court.gov.cn/"
   },
   "trial_process": {
     "status": "公开接口返回412，且非完整裁判文书库",
@@ -29,20 +63,8 @@
   },
   "spc_annual_typical_cases": {
     "status": "最高人民法院官方页面",
-    "collected_count": 392,
-    "years": [
-      2012,
-      2013,
-      2014,
-      2015,
-      2016,
-      2017,
-      2018,
-      2020,
-      2021,
-      2022,
-      2023
-    ],
+    "collected_count": 395,
+    "years": [2012, 2013, 2014, 2015, 2016, 2017, 2018, 2020, 2021, 2022, 2023],
     "access_note": "年度典型案例名单索引，裁判全文与生效状态仍需逐案核验"
   }
 }

@@ -339,19 +339,25 @@ def upsert_case(conn: sqlite3.Connection, case: dict[str, Any], replace: bool = 
         f"INSERT INTO cases ({', '.join(CASE_COLUMNS)}) VALUES ({placeholders})",
         tuple(case[column] for column in CASE_COLUMNS),
     )
-    conn.execute("DELETE FROM cases_fts WHERE case_id = ?", (case["case_id"],))
-    conn.execute(
-        "INSERT INTO cases_fts(case_id, title, case_number, court, cause_of_action, search_text) "
-        "VALUES (?, ?, ?, ?, ?, ?)",
-        (
-            case["case_id"],
-            case["title"],
-            case["case_number"],
-            case["court"],
-            case["cause_of_action"],
-            case["search_text"],
-        ),
-    )
+    # 大型案例库可选择不携带三元组 FTS 索引以控制仓库体积；此时保留
+    # 结构化表，关键词检索器仍可正常工作，后续导入也不应因此失败。
+    fts_exists = conn.execute(
+        "SELECT 1 FROM sqlite_master WHERE type='table' AND name='cases_fts'"
+    ).fetchone()
+    if fts_exists:
+        conn.execute("DELETE FROM cases_fts WHERE case_id = ?", (case["case_id"],))
+        conn.execute(
+            "INSERT INTO cases_fts(case_id, title, case_number, court, cause_of_action, search_text) "
+            "VALUES (?, ?, ?, ?, ?, ?)",
+            (
+                case["case_id"],
+                case["title"],
+                case["case_number"],
+                case["court"],
+                case["cause_of_action"],
+                case["search_text"],
+            ),
+        )
     return action
 
 

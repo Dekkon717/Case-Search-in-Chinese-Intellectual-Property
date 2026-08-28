@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="assets/hero.svg" alt="中国知识产权类案检索 Skill：1220 条全国案例、六大知识产权领域、本地可追溯检索" width="100%">
+  <img src="assets/hero.svg" alt="中国知识产权类案检索 Skill：6100 条全国案例、六大知识产权领域、本地可追溯检索" width="100%">
 </p>
 
 <p align="center">
   <a href="https://github.com/Dekkon717/Case-Search-in-Chinese-Intellectual-Property/releases"><img alt="版本" src="https://img.shields.io/badge/version-0.2.0-16a085"></a>
-  <img alt="案例数" src="https://img.shields.io/badge/cases-1%2C220-243b53">
+  <img alt="案例数" src="https://img.shields.io/badge/cases-6%2C100-243b53">
   <img alt="领域数" src="https://img.shields.io/badge/IP领域-6-4c78a8">
   <img alt="本地优先" src="https://img.shields.io/badge/local--first-✓-2e8b57">
   <a href="LICENSE"><img alt="许可证" src="https://img.shields.io/badge/code_license-MIT-blue"></a>
@@ -35,13 +35,13 @@
   <img src="assets/corpus-dashboard.svg" alt="案例库数据看板：六个知识产权领域和六类主要来源" width="100%">
 </p>
 
-- 当前内置 **1,220 条**全国知识产权案例索引，由原 610 条翻倍扩容。
-- 扩容前清理旧库跨来源重复 23 条；795 条候选中再清理 89 条重复，选入 633 条，最终净增加 610 条。
-- 最终 `case_id` 全部唯一，已知案号重复组为 0，JSON、SQLite 与全文索引数量一致。
-- 来源包括最高人民法院年度典型案例、人民法院案例库、中国裁判文书网列表摘要、Figshare CC BY 4.0 数据集、北大法宝检索索引等。
+- 当前内置 **6,100 条**全国知识产权案例索引，是 1,220 条既有库的 5 倍。
+- 本轮筛选去重后的候选池为 6,205 条，最终新增 4,880 条；`case_id` 与正文哈希均全局唯一，JSON 与 SQLite 数量一致。
+- 主要新增来源为明确声明源自中国裁判文书网的 C3RD/MileCut 与 TheFinAI 公开研究语料；同时保留最高人民法院年度典型案例、人民法院案例库、Figshare CC BY 4.0 样本、北大法宝索引和裁判文书网列表摘要。
+- 新增记录是机器结构化索引，不是裁判文书网全文镜像；每条保存数据集分片/行号引用，正式意见必须回到原文核验。
 - 领域标签允许交叉归类，因此上图各领域数量之和可能大于案例总数。
 
-完整计算关系、质量检查与局限性见《[案例库扩容与质量分析日志](docs/ANALYSIS-LOG-2026-08-24.md)》；机器可读审计见 [`expansion-audit.json`](data/national-ip-corpus/expansion-audit.json)。
+完整计算关系、质量检查与局限性见《[案例库扩容与质量分析日志（2026-08-28）](docs/ANALYSIS-LOG-2026-08-28.md)》；机器可读审计见 [`expansion-audit.json`](data/national-ip-corpus/expansion-audit.json)。
 
 ## 覆盖领域
 
@@ -59,7 +59,7 @@
 ```mermaid
 flowchart LR
     A[输入案件事实] --> B[提取法律要素]
-    B --> C[本地检索 1,220 条索引]
+    B --> C[本地检索 6,100 条索引]
     C --> D[权威性与相似度排序]
     D --> E[回到来源原文核验]
     E --> F[类案规则与差异对比]
@@ -123,6 +123,8 @@ python scripts/validate_corpus.py --db .\data\national-ip-corpus\cases.db
 | [`references/schema.md`](references/schema.md) | JSON/SQLite 字段定义 |
 | [`scripts/search_cases.py`](scripts/search_cases.py) | 本地结构化类案检索 |
 | [`scripts/expand_ip_corpus.py`](scripts/expand_ip_corpus.py) | 公开数据扩容与去重审计 |
+| [`scripts/merge_wenshu_public_corpora.py`](scripts/merge_wenshu_public_corpora.py) | 合并裁判文书网来源公开研究语料 |
+| [`scripts/collect_hf_ip_parallel.py`](scripts/collect_hf_ip_parallel.py) | 并行下载公开语料分片并筛选知识产权文本 |
 | [`scripts/validate_corpus.py`](scripts/validate_corpus.py) | 数据结构和质量检查 |
 | [`scripts/install_skill.ps1`](scripts/install_skill.ps1) | Windows 一键安装 |
 | [`data/national-ip-corpus/`](data/national-ip-corpus/) | 全国案例索引、数据库、来源登记与审计 |

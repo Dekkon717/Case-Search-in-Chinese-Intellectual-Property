@@ -1,27 +1,29 @@
 {
   "scope": "全国（含福建本地）",
-  "generated_at": "2026-08-24",
-  "base_cases": 610,
-  "base_duplicate_records_removed": 23,
-  "retained_base_cases": 587,
-  "added_cases": 633,
-  "net_increase": 610,
-  "total_cases": 1220,
-  "expansion_ratio": 2.0,
+  "generated_at": "2026-08-28",
+  "base_cases": 1220,
+  "base_duplicate_records_removed": 0,
+  "retained_base_cases": 1220,
+  "added_cases": 4880,
+  "net_increase": 4880,
+  "total_cases": 6100,
+  "expansion_ratio": 5.0,
+  "candidate_unique_count": 6205,
   "by_case_type": {
-    "不正当竞争": 119,
-    "专利": 217,
+    "不正当竞争": 168,
+    "专利": 515,
     "专利及恶意诉讼": 1,
     "其他知识产权": 42,
-    "商业秘密": 87,
-    "商标": 243,
+    "商业秘密": 260,
+    "商标": 1670,
     "商标及不正当竞争": 81,
     "外观设计专利": 1,
-    "植物新品种": 128,
-    "著作权": 301
+    "植物新品种": 129,
+    "知识产权": 259,
+    "著作权": 2974
   },
   "by_source_type": {
-    "effective_judgment": 233,
+    "effective_judgment": 5113,
     "fujian_high_court_typical_case": 2,
     "guiding_case": 1,
     "other_verified_public_case": 263,
@@ -29,24 +31,27 @@
     "spc_typical_case": 395
   },
   "added_by_case_type": {
-    "不正当竞争": 57,
-    "专利": 104,
-    "其他知识产权": 42,
-    "商业秘密": 15,
-    "商标": 144,
-    "商标及不正当竞争": 80,
-    "植物新品种": 8,
-    "著作权": 183
+    "不正当竞争": 49,
+    "专利": 298,
+    "商业秘密": 173,
+    "商标": 1427,
+    "植物新品种": 1,
+    "知识产权": 259,
+    "著作权": 2673
   },
   "added_by_source_type": {
-    "other_verified_public_case": 241,
-    "spc_typical_case": 392
+    "effective_judgment": 4880
   },
   "verified_or_official_count": 724,
+  "machine_extracted_count": 5376,
   "pkulaw_index_lead_count": 22,
   "figshare_dataset_count": 241,
   "rmfyalk_index_count": 326,
-  "wenshu_index_count": 233,
+  "wenshu_list_index_count": 233,
+  "wenshu_derived_public_dataset_count": 4880,
+  "c3rd_selected_count": 1097,
+  "pleias_court_decision_selected_count": 3783,
   "spc_typical_case_count": 395,
-  "note": "本轮扩容优先保留Figshare CC BY 4.0判决样本及最高人民法院年度典型案例索引；所有机器提取记录仍须回到原文复核。"
+  "full_text_hash_duplicates_final": 0,
+  "note": "本轮按原有1220条的5倍目标扩容至6100条。新增4880条来自明确声明源自中国裁判文书网的公开研究语料；每条均保留数据集分片/行号引用并标记机器提取。source_url为裁判文书网公开入口，不能替代逐案打开原文核验。"
 }

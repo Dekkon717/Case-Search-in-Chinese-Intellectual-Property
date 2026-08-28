@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
   <title id="title">全国知识产权案例库数据看板</title>
-  <desc id="desc">展示1220条案例索引的领域覆盖和来源构成</desc>
+  <desc id="desc">展示6100条案例索引的领域覆盖和来源构成</desc>
   <defs>
     <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#f8fbff"/>
@@ -12,7 +12,7 @@
   <rect width="1200" height="680" rx="28" fill="url(#panel)"/>
   <g font-family="Inter,Segoe UI,Microsoft YaHei,sans-serif">
     <text x="48" y="62" font-size="32" font-weight="800" fill="#102a43">案例库数据看板</text>
-    <text x="48" y="98" font-size="18" fill="#526b7a">截至 2026-08-24 · 全国范围 · 结构化 JSON + SQLite 全文索引</text>
+    <text x="48" y="98" font-size="18" fill="#526b7a">截至 2026-08-28 · 全国范围 · 结构化 JSON + SQLite 轻量检索</text>
 
     <g transform="translate(48 126)">
       <rect width="694" height="498" rx="22" fill="#fff" stroke="#d9e7ef"/>
@@ -20,15 +20,15 @@
       <text x="28" y="71" font-size="14" fill="#6b7f8d">交叉案件同时进入相关领域展示口径</text>
 
       <g font-size="16" fill="#29465b">
-        <text x="28" y="122">商标及交叉</text><rect x="150" y="101" width="494" height="29" rx="9" fill="url(#bar1)"/><text x="657" y="122" font-weight="700" text-anchor="end">324</text>
-        <text x="28" y="183">著作权</text><rect x="150" y="162" width="459" height="29" rx="9" fill="url(#bar1)"/><text x="657" y="183" font-weight="700" text-anchor="end">301</text>
-        <text x="28" y="244">专利及外观</text><rect x="150" y="223" width="334" height="29" rx="9" fill="url(#bar1)"/><text x="657" y="244" font-weight="700" text-anchor="end">219</text>
-        <text x="28" y="305">不正当竞争</text><rect x="150" y="284" width="305" height="29" rx="9" fill="url(#bar1)"/><text x="657" y="305" font-weight="700" text-anchor="end">200</text>
-        <text x="28" y="366">植物新品种</text><rect x="150" y="345" width="195" height="29" rx="9" fill="url(#bar1)"/><text x="657" y="366" font-weight="700" text-anchor="end">128</text>
-        <text x="28" y="427">商业秘密</text><rect x="150" y="406" width="133" height="29" rx="9" fill="url(#bar1)"/><text x="657" y="427" font-weight="700" text-anchor="end">87</text>
+        <text x="28" y="122">商标及交叉</text><rect x="150" y="101" width="494" height="29" rx="9" fill="url(#bar1)"/><text x="657" y="122" font-weight="700" text-anchor="end">1,751</text>
+        <text x="28" y="183">著作权</text><rect x="150" y="162" width="459" height="29" rx="9" fill="url(#bar1)"/><text x="657" y="183" font-weight="700" text-anchor="end">2,974</text>
+        <text x="28" y="244">专利及外观</text><rect x="150" y="223" width="334" height="29" rx="9" fill="url(#bar1)"/><text x="657" y="244" font-weight="700" text-anchor="end">516</text>
+        <text x="28" y="305">不正当竞争</text><rect x="150" y="284" width="305" height="29" rx="9" fill="url(#bar1)"/><text x="657" y="305" font-weight="700" text-anchor="end">249</text>
+        <text x="28" y="366">植物新品种</text><rect x="150" y="345" width="195" height="29" rx="9" fill="url(#bar1)"/><text x="657" y="366" font-weight="700" text-anchor="end">129</text>
+        <text x="28" y="427">商业秘密</text><rect x="150" y="406" width="133" height="29" rx="9" fill="url(#bar1)"/><text x="657" y="427" font-weight="700" text-anchor="end">260</text>
       </g>
       <rect x="28" y="458" width="638" height="1" fill="#e4edf2"/>
-      <text x="28" y="483" font-size="14" fill="#607987">另含 42 条其他知识产权记录，并保留原始细分案由。</text>
+      <text x="28" y="483" font-size="14" fill="#607987">另含 259 条待细分知识产权记录和 42 条其他知识产权记录。</text>
     </g>
 
     <g transform="translate(770 126)">
@@ -36,12 +36,12 @@
       <text x="26" y="44" font-size="23" font-weight="750" fill="#17324d">来源构成</text>
       <text x="26" y="71" font-size="14" fill="#6b7f8d">每条记录保留来源 URL 与复核状态</text>
       <g font-size="15" fill="#29465b">
-        <text x="26" y="118">最高法典型案例</text><rect x="26" y="132" width="310" height="20" rx="7" fill="url(#bar2)"/><text x="346" y="148" text-anchor="end" font-weight="700">395</text>
-        <text x="26" y="190">人民法院案例库</text><rect x="26" y="204" width="256" height="20" rx="7" fill="url(#bar2)"/><text x="346" y="220" text-anchor="end" font-weight="700">326</text>
-        <text x="26" y="262">Figshare 判决样本</text><rect x="26" y="276" width="189" height="20" rx="7" fill="url(#bar2)"/><text x="346" y="292" text-anchor="end" font-weight="700">241</text>
-        <text x="26" y="334">裁判文书网摘要</text><rect x="26" y="348" width="183" height="20" rx="7" fill="url(#bar2)"/><text x="346" y="364" text-anchor="end" font-weight="700">233</text>
-        <text x="26" y="406">北大法宝索引</text><rect x="26" y="420" width="44" height="20" rx="7" fill="url(#bar2)"/><text x="346" y="436" text-anchor="end" font-weight="700">22</text>
-        <text x="26" y="478">指导/福建公开记录</text><rect x="26" y="492" width="12" height="20" rx="6" fill="url(#bar2)"/><text x="346" y="508" text-anchor="end" font-weight="700">3</text>
+        <text x="26" y="118">裁判文书网衍生语料</text><rect x="26" y="132" width="310" height="20" rx="7" fill="url(#bar2)"/><text x="346" y="148" text-anchor="end" font-weight="700">4,880</text>
+        <text x="26" y="190">最高法典型案例</text><rect x="26" y="204" width="25" height="20" rx="7" fill="url(#bar2)"/><text x="346" y="220" text-anchor="end" font-weight="700">395</text>
+        <text x="26" y="262">人民法院案例库</text><rect x="26" y="276" width="21" height="20" rx="7" fill="url(#bar2)"/><text x="346" y="292" text-anchor="end" font-weight="700">326</text>
+        <text x="26" y="334">Figshare 判决样本</text><rect x="26" y="348" width="16" height="20" rx="7" fill="url(#bar2)"/><text x="346" y="364" text-anchor="end" font-weight="700">241</text>
+        <text x="26" y="406">裁判文书网列表摘要</text><rect x="26" y="420" width="15" height="20" rx="7" fill="url(#bar2)"/><text x="346" y="436" text-anchor="end" font-weight="700">233</text>
+        <text x="26" y="478">北大法宝/指导/福建</text><rect x="26" y="492" width="4" height="20" rx="6" fill="url(#bar2)"/><text x="346" y="508" text-anchor="end" font-weight="700">25</text>
       </g>
     </g>
   </g>
