@@ -53,5 +53,24 @@
   "pleias_court_decision_selected_count": 3783,
   "spc_typical_case_count": 395,
   "full_text_hash_duplicates_final": 0,
+  "inferred_matter_counts": {
+    "civil": 5235,
+    "administrative": 318,
+    "enforcement": 388,
+    "criminal": 159
+  },
+  "quality_audit": {
+    "title_suspected_pollution": 497,
+    "court_suspected_pollution": 710,
+    "case_number_placeholder": 1118,
+    "date_suspected_placeholder": 1729,
+    "generic_wenshu_entry_url": 4880,
+    "pii_regex_hits": 0
+  },
+  "backtest": {
+    "fixture_count": 3,
+    "passed_count": 3,
+    "pass": true
+  },
   "note": "本轮按原有1220条的5倍目标扩容至6100条。新增4880条来自明确声明源自中国裁判文书网的公开研究语料；每条均保留数据集分片/行号引用并标记机器提取。source_url为裁判文书网公开入口，不能替代逐案打开原文核验。"
 }

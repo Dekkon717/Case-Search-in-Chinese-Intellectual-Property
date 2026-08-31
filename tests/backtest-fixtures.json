@@ -1,0 +1,23 @@
+[
+  {
+    "name": "商标许可终止与混淆",
+    "query": "商标许可解除",
+    "expected_ids": ["RMFY-TM-036", "RMFY-TM-026", "RMFY-UC-040"],
+    "min_expected_hits": 2,
+    "matter": "civil"
+  },
+  {
+    "name": "软件许可与源代码修改",
+    "query": "软件 著作权 许可 修改 源代码",
+    "expected_ids": ["RMFY-COPY-039", "IP-RMFY-COPY-001", "RMFY-COPY-033"],
+    "min_expected_hits": 2,
+    "matter": "civil"
+  },
+  {
+    "name": "域名与不正当竞争",
+    "query": "不正当竞争 域名 商标 关联公司",
+    "expected_ids": ["RMFY-UC-008", "RMFY-TM-044", "RMFY-UC-040"],
+    "min_expected_hits": 2,
+    "matter": "civil"
+  }
+]

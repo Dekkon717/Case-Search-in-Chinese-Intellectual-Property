@@ -1,0 +1,71 @@
+{
+  "run_date": "2026-08-31",
+  "fixture": "tests/backtest-fixtures.json",
+  "database": "data/national-ip-corpus/cases.db",
+  "top_k": 5,
+  "case_count": 3,
+  "passed_count": 3,
+  "pass": true,
+  "results": [
+    {
+      "name": "商标许可终止与混淆",
+      "query": "商标许可解除",
+      "matter": "civil",
+      "top_ids": [
+        "RMFY-TM-036",
+        "RMFY-TM-013",
+        "RMFY-UC-040",
+        "RMFY-TM-026",
+        "PLEIAS-IP-a03c28968854ad5461f6"
+      ],
+      "expected_hits": [
+        "RMFY-TM-036",
+        "RMFY-TM-026",
+        "RMFY-UC-040"
+      ],
+      "expected_hit_count": 3,
+      "non_matter_ids": [],
+      "passed": true
+    },
+    {
+      "name": "软件许可与源代码修改",
+      "query": "软件 著作权 许可 修改 源代码",
+      "matter": "civil",
+      "top_ids": [
+        "IP-RMFY-COPY-001",
+        "RMFY-COPY-059",
+        "RMFY-COPY-039",
+        "RMFY-COPY-033",
+        "RMFY-COPY-026"
+      ],
+      "expected_hits": [
+        "RMFY-COPY-039",
+        "IP-RMFY-COPY-001",
+        "RMFY-COPY-033"
+      ],
+      "expected_hit_count": 3,
+      "non_matter_ids": [],
+      "passed": true
+    },
+    {
+      "name": "域名与不正当竞争",
+      "query": "不正当竞争 域名 商标 关联公司",
+      "matter": "civil",
+      "top_ids": [
+        "RMFY-TM-044",
+        "RMFY-UC-040",
+        "RMFY-UC-008",
+        "RMFY-UC-052",
+        "RMFY-UC-029"
+      ],
+      "expected_hits": [
+        "RMFY-UC-008",
+        "RMFY-TM-044",
+        "RMFY-UC-040"
+      ],
+      "expected_hit_count": 3,
+      "non_matter_ids": [],
+      "passed": true
+    }
+  ]
+}

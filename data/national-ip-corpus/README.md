@@ -14,6 +14,7 @@
 - `cases.db`：可直接检索的轻量 SQLite 数据库；为控制分发体积未附带三元组 FTS，`search_cases.py` 使用可解释的结构化关键词评分。
 - `collection-summary.json`：数量、领域和来源统计。
 - `expansion-audit.json`：5 倍扩容、去重、质量检查和限制。
+- `quality-audit.json`：标题/法院字段污染、案号/日期占位、文书类型、来源链接和敏感信息审计结果。
 - `source-registry.json`、`provenance.md`：来源、许可和回溯边界。
 
 ## 检索示例
@@ -21,6 +22,7 @@
 ```powershell
 python ../../scripts/search_cases.py --db .\cases.db --query "软件 著作权" --limit 10
 python ../../scripts/validate_corpus.py --db .\cases.db
+python ../../scripts/audit_case_fields.py --db .\cases.db --out .\quality-audit.json
 ```
 
 正式使用前请回到来源原文核对案号、程序、法律版本、生效状态和裁判主文。

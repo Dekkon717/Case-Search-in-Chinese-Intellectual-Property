@@ -1,0 +1,108 @@
+{
+  "generated_at": "2026-08-31",
+  "database": "data/national-ip-corpus/cases.db",
+  "record_count": 6100,
+  "counts": {
+    "case_number_placeholder": 1118,
+    "case_number_unrecognized": 1,
+    "court_suspected_pollution": 710,
+    "date_suspected_placeholder": 1729,
+    "generic_wenshu_entry_url": 4880,
+    "title_suspected_pollution": 497
+  },
+  "matter_counts": {
+    "administrative": 318,
+    "civil": 5235,
+    "criminal": 159,
+    "enforcement": 388
+  },
+  "review_status_counts": {
+    "待二次核验（北大法宝检索索引）": 22,
+    "机器提取": 8,
+    "机器提取（C3RD，来源为中国裁判文书网）": 1097,
+    "机器提取（Figshare CC BY 4.0判决合集）": 241,
+    "机器提取（PleIAs/中国法院裁判文书公开语料）": 3783,
+    "机器提取（人民法院案例库）": 324,
+    "机器提取（最高人民法院年度典型案例名单）": 392,
+    "机器提取（裁判文书网列表摘要）": 233
+  },
+  "source_type_counts": {
+    "effective_judgment": 5113,
+    "fujian_high_court_typical_case": 2,
+    "guiding_case": 1,
+    "other_verified_public_case": 263,
+    "people_court_case_library": 326,
+    "spc_typical_case": 395
+  },
+  "samples": {
+    "case_number_placeholder": [
+      "IP-FJ-TM-001",
+      "IP-FJ-UC-001",
+      "RMFY-COPY-017",
+      "RMFY-COPY-038",
+      "RMFY-SEC-012",
+      "RMFY-UC-009",
+      "SPC-TYP-2015-42",
+      "C3RD-IP-0b32044c890445ebbc79aabc00b45a37",
+      "C3RD-IP-5113ad6b22ce4394a29aab7a0133ab6a",
+      "C3RD-IP-1553b26210cf4f8a865cab8000a44a19"
+    ],
+    "case_number_unrecognized": [
+      "IP-SPC-COPY-001"
+    ],
+    "date_suspected_placeholder": [
+      "RMFY-COPY-017",
+      "RMFY-COPY-038",
+      "RMFY-SEC-012",
+      "RMFY-UC-009",
+      "FIG-IP-PD-001",
+      "FIG-IP-PD-002",
+      "FIG-IP-PD-003",
+      "FIG-IP-PD-004",
+      "FIG-IP-PD-005",
+      "FIG-IP-PD-006"
+    ],
+    "title_suspected_pollution": [
+      "FIG-IP-PD-030",
+      "C3RD-IP-47eb635d945f451c846daca300ce0675",
+      "C3RD-IP-b6dd76d6c0bf4eacabe9ac7e0059e9d6",
+      "C3RD-IP-f518e4a119e3415fbe02a85400b10a5d",
+      "C3RD-IP-c01430765755485ab4699375b88c1ce9",
+      "C3RD-IP-1bc2935e7b1c4574808ae6a1ab5a34e2",
+      "C3RD-IP-275e111162cc4dc4a6faa9a100c91ff9",
+      "C3RD-IP-ed0fcb2bf49042dfac5e4dcb608e45d7",
+      "C3RD-IP-aeadc84f88204de1890bac8100b32751",
+      "C3RD-IP-fdd2e923c8d04725bcacfd6c5bbf5a40"
+    ],
+    "generic_wenshu_entry_url": [
+      "C3RD-IP-0b32044c890445ebbc79aabc00b45a37",
+      "C3RD-IP-5113ad6b22ce4394a29aab7a0133ab6a",
+      "C3RD-IP-1553b26210cf4f8a865cab8000a44a19",
+      "C3RD-IP-47eb635d945f451c846daca300ce0675",
+      "C3RD-IP-560ddbe124e34527a960aebf0011ebac",
+      "C3RD-IP-5976148159e346a3a15bab1401868b46",
+      "C3RD-IP-7d6e6991785a470a8987ab300186d11c",
+      "C3RD-IP-77956fd348e94acaabb8ab1401868693",
+      "C3RD-IP-51713c7bca3e4da98324ac4600e7b174",
+      "C3RD-IP-eb888635144e4729a12facf400e10b6d"
+    ],
+    "court_suspected_pollution": [
+      "PLEIAS-IP-ec58cae93f11eaeaf3bb",
+      "PLEIAS-IP-cf01c0e02fac64015524",
+      "PLEIAS-IP-d7ecd299ee0bddaeced7",
+      "PLEIAS-IP-144b8c3524a0ea550d71",
+      "PLEIAS-IP-640ac99d0082137211b4",
+      "PLEIAS-IP-383d017dcab3b220a0b1",
+      "PLEIAS-IP-b0962c101a0ee41d201b",
+      "PLEIAS-IP-86b4d1728a8d0e5987a4",
+      "PLEIAS-IP-9d753d091f041f5ba10e",
+      "PLEIAS-IP-af4ee2e8d83aa5e42554"
+    ]
+  },
+  "interpretation": {
+    "title_or_court_pollution": "疑似污染只进入清单，需人工核对后再修复",
+    "generic_wenshu_entry_url": "公开入口可追溯性不足，应补充具体文书详情链接",
+    "pii_regex_hit": "命中即阻止发布，先脱敏再入库",
+    "matter_counts": "由标题、案由、程序和正文开头推断，仅用于检索过滤"
+  }
+}

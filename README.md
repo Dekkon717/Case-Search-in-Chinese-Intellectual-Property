@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Dekkon717/Case-Search-in-Chinese-Intellectual-Property/releases"><img alt="版本" src="https://img.shields.io/badge/version-0.2.0-16a085"></a>
+  <a href="https://github.com/Dekkon717/Case-Search-in-Chinese-Intellectual-Property/releases"><img alt="版本" src="https://img.shields.io/badge/version-0.4.0-16a085"></a>
   <img alt="案例数" src="https://img.shields.io/badge/cases-6%2C100-243b53">
   <img alt="领域数" src="https://img.shields.io/badge/IP领域-6-4c78a8">
   <img alt="本地优先" src="https://img.shields.io/badge/local--first-✓-2e8b57">
@@ -39,9 +39,11 @@
 - 本轮筛选去重后的候选池为 6,205 条，最终新增 4,880 条；`case_id` 与正文哈希均全局唯一，JSON 与 SQLite 数量一致。
 - 主要新增来源为明确声明源自中国裁判文书网的 C3RD/MileCut 与 TheFinAI 公开研究语料；同时保留最高人民法院年度典型案例、人民法院案例库、Figshare CC BY 4.0 样本、北大法宝索引和裁判文书网列表摘要。
 - 新增记录是机器结构化索引，不是裁判文书网全文镜像；每条保存数据集分片/行号引用，正式意见必须回到原文核验。
+- 检索器默认排除刑事、行政和执行文书，支持无空格中文轻量法律词切分、同义词扩展，并返回命中字段和命中词解释。
+- 新增字段质量审计和固定回测：可发现标题/法院污染、案号/日期占位和通用来源链接，并用三组固定问题验证检索回归。
 - 领域标签允许交叉归类，因此上图各领域数量之和可能大于案例总数。
 
-完整计算关系、质量检查与局限性见《[案例库扩容与质量分析日志（2026-08-28）](docs/ANALYSIS-LOG-2026-08-28.md)》；机器可读审计见 [`expansion-audit.json`](data/national-ip-corpus/expansion-audit.json)。
+完整计算关系、质量检查与局限性见《[案例库扩容与质量分析日志（2026-08-28）](docs/ANALYSIS-LOG-2026-08-28.md)》；本轮检索改进见《[检索优化日志（2026-08-31）](docs/OPTIMIZATION-LOG-2026-08-31.md)》；机器可读审计见 [`expansion-audit.json`](data/national-ip-corpus/expansion-audit.json) 与 [`quality-audit.json`](data/national-ip-corpus/quality-audit.json)。
 
 ## 覆盖领域
 
@@ -125,6 +127,9 @@ python scripts/validate_corpus.py --db .\data\national-ip-corpus\cases.db
 | [`scripts/expand_ip_corpus.py`](scripts/expand_ip_corpus.py) | 公开数据扩容与去重审计 |
 | [`scripts/merge_wenshu_public_corpora.py`](scripts/merge_wenshu_public_corpora.py) | 合并裁判文书网来源公开研究语料 |
 | [`scripts/collect_hf_ip_parallel.py`](scripts/collect_hf_ip_parallel.py) | 并行下载公开语料分片并筛选知识产权文本 |
+| [`scripts/audit_case_fields.py`](scripts/audit_case_fields.py) | 只读审计案例字段质量和文书类型分布 |
+| [`scripts/run_ip_backtest.py`](scripts/run_ip_backtest.py) | 运行固定检索回测并输出回归结果 |
+| [`tests/backtest-fixtures.json`](tests/backtest-fixtures.json) | 商标、软件著作权、不正当竞争三组回测问题 |
 | [`scripts/validate_corpus.py`](scripts/validate_corpus.py) | 数据结构和质量检查 |
 | [`scripts/install_skill.ps1`](scripts/install_skill.ps1) | Windows 一键安装 |
 | [`data/national-ip-corpus/`](data/national-ip-corpus/) | 全国案例索引、数据库、来源登记与审计 |
